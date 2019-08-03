@@ -1,7 +1,6 @@
 package Program.System_Parts;
 
 import Program.Contracts.SystemPart;
-
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -44,14 +43,34 @@ public class Claster extends SystemPart {
     }
 
     public boolean isFailed(int servId, int nodeId){
-        Node node = FindNode(servId, nodeId);
-
-        return node == null ? false : node.isStatus();
+        return FindNode(servId, nodeId).isStatus();
 
 
     }
 
     private Node FindNode(int servId, int nodeId){
+
+        class findException extends RuntimeException{
+            public findException() {
+            }
+
+            public findException(String message) {
+                super(message);
+            }
+
+            public findException(String message, Throwable cause) {
+                super(message, cause);
+            }
+
+            public findException(Throwable cause) {
+                super(cause);
+            }
+
+            public findException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+                super(message, cause, enableSuppression, writableStackTrace);
+            }
+        }
+
         for(Server i : servers){
 
             if(i.getId() == servId){
@@ -63,6 +82,8 @@ public class Claster extends SystemPart {
                 }
             }
         }
-        return null;
+        throw new findException("didn't find Node");
+
+
     }
 }

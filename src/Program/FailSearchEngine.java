@@ -8,6 +8,9 @@ public class FailSearchEngine {
     Claster claster;
 
     public FailSearchEngine(Claster claster) {
+        if(claster == null)
+            throw new NullPointerException(String.format("%s is null", claster.getClass().getName()));
+
         this.claster = claster;
     }
 
@@ -48,10 +51,16 @@ public class FailSearchEngine {
     }
 
     private String createAnswer(Node node){
+        if(node == null)
+            throw new NullPointerException(String.format("%s is null", node.getClass().getName()));
+
         return String.format("Signal stoped on " + findServ(node).getId() + " Server " + node.getId() + " Node");
     }
 
     private Server findServ(Node node) {
+
+        if(node == null)
+            throw new NullPointerException(String.format("%s is null", node.getClass().getName()));
 
         for (Server i : claster.servers) {
 
