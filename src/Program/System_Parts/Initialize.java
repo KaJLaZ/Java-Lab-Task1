@@ -1,25 +1,24 @@
 package Program.System_Parts;
 
+import Program.Wrappers.SystPartOptional;
+
+import java.util.Random;
+
 public class Initialize {
     public static Claster InitializeClaster(){
-        Node n1 = new Node();
-        Node n2 = new Node();
-        Node n3 = new Node();
+        return new Claster(InitializeServer(), InitializeServer(), InitializeServer());
+    }
 
-        Server s1 = new Server(n1, n2, n3);
+    private static SystPartOptional<Server> InitializeServer(){
+        return exist() ? new SystPartOptional<>(new Server(InitializeNode(), InitializeNode(), InitializeNode())) :
+                         new SystPartOptional<>(null);
+    }
 
-        Node n4 = new Node();
-        Node n5 = new Node();
-        Node n6 = new Node();
+    private static SystPartOptional<Node> InitializeNode(){
+      return exist() ? new SystPartOptional<>(new Node()) : new SystPartOptional<>(null);
+    }
 
-        Server s2 = new Server(n4, n5, n6);
-
-        Node n7 = new Node();
-        Node n8 = new Node();
-        Node n9 = new Node();
-
-        Server s3 = new Server(n7, n8, n9);
-
-        return new Claster(s1, s2, s3);
+    private static boolean exist(){
+        return new Random().nextBoolean();
     }
 }

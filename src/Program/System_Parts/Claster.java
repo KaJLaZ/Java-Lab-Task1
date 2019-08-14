@@ -1,89 +1,123 @@
 package Program.System_Parts;
 
-import Program.Contracts.SystemPart;
+import Program.Wrappers.SystPartOptional;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 
 public class Claster extends SystemPart {
 
     private static final int PLACE_HIERARCHY = 1;
 
-    public ArrayList<Server> servers;
+    public ArrayList<SystPartOptional<Server>> servers;
 
-     public Claster(Server... servers){
+    public Claster(SystPartOptional<Server>... servers){
         this(PLACE_HIERARCHY, servers);
     }
 
-    protected Claster(int placeHierarchy,Server... servers){
+    protected Claster(int placeHierarchy, SystPartOptional<Server>... servers){
         super(placeHierarchy);
 
         this.servers = new ArrayList<>();
 
-        for(Server i : servers)
-            this.servers.add(i);
+        Collections.addAll(this.servers, servers);
     }
+
+    private Claster(){};
 
     public void sendMessage(){
         setStatus(false);
 
-        Random rand = new Random();
-        int i = rand.nextInt(servers.size());
-        int j = rand.nextInt(servers.get(i).nodes.size());
+        if(!existSystemPart())
+                return;
+
+        int i = beginGupSystPart(servers);
+
+        if(!servers.get(i).hasValue())
+            return;
+
+        int j = beginGupSystPart(servers.get(i).getValue().nodes);
 
         for( ; i < servers.size(); i++){
-            servers.get(i).setStatus(false);
 
-            for(; j < servers.get(i).nodes.size(); j++){
+            if(!servers.get(i).hasValue())
+                continue;
 
-                servers.get(i).nodes.get(j).setStatus(false);
+            servers.get(i).getValue().setStatus(false);
+
+            for(; j < servers.get(i).getValue().nodes.size(); j++){
+
+                if(!servers.get(i).getValue().nodes.get(j).hasValue())
+                    continue;
+
+                servers.get(i).getValue().nodes.get(j).getValue().setStatus(false);
             }
             j = 0;
         }
 
     }
 
-    public boolean isFailed(int servId, int nodeId){
-        return FindNode(servId, nodeId).isStatus();
-
-
+    private boolean existSystemPart(){
+         return SystemPart.amount > 0;
     }
 
-    private Node FindNode(int servId, int nodeId){
+    private <T extends SystemPart> int beginGupSystPart(ArrayList<SystPartOptional<T>> parts){
+        Random rand = new Random();
+        int numSer = rand.nextInt(parts.size());
 
-        class findException extends RuntimeException{
-            public findException() {
-            }
-
-            public findException(String message) {
-                super(message);
-            }
-
-            public findException(String message, Throwable cause) {
-                super(message, cause);
-            }
-
-            public findException(Throwable cause) {
-                super(cause);
-            }
-
-            public findException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
-                super(message, cause, enableSuppression, writableStackTrace);
-            }
+        for(int i = numSer; i < parts.size(); i++){
+            if(parts.get(i).hasValue())
+                return i;
         }
 
-        for(Server i : servers){
+        for(int i = 0; i < numSer; i++){
+            if(parts.get(i).hasValue())
+                return i;
+        }
 
-            if(i.getId() == servId){
+        return numSer;
+    }
 
-                for(Node j : i.nodes){
+    public boolean isFailed(int servId, int nodeId){
+         try {
+             SystPartOptional<Node> temp = FindNode(servId, nodeId);
+         }
+         catch (findException ex){
+             System.out.println(ex.getMessage());
+             return false;
+         }
 
-                    if(j.getId() == nodeId)
+        return FindNode(servId, nodeId).getValue().isStatus();
+    }
+
+    private SystPartOptional<Node> FindNode(int servId, int nodeId){
+
+        for(SystPartOptional<Server> i : servers){
+
+            if(!i.hasValue())
+                continue;
+
+            if(i.getValue().getId() == servId){
+
+                for(SystPartOptional<Node> j : i.getValue().nodes){
+
+                    if(!j.hasValue())
+                        continue;
+
+                    if(j.getValue().getId() == nodeId)
                         return j;
                 }
             }
         }
         throw new findException("didn't find Node");
+    }
 
-
+    class findException extends RuntimeException{
+        public findException(String message) {
+            super(message);
+        }
     }
 }

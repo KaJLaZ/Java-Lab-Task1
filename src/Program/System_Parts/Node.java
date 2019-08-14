@@ -1,7 +1,7 @@
 package Program.System_Parts;
 
 
- public class Node extends Server{
+public class Node extends SystemPart {
 
     private static final int PLACE_HIERARCHY = 10000;
 
