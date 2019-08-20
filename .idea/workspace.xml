@@ -2,27 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a96fdd-a159-41e8-a64c-f83108c0a100" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Program/Contracts/ClasterDeserelization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Program/Contracts/ClasterSerelization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Program/Contracts/Orderable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Program/Contracts/Statuseable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Program/Engines/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Program/Engines/IO/IOEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Program/Engines/IO/JSON/JsonDeserilization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Program/Engines/IO/JSON/JsonSerelization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Program/Engines/IO/XML/XmlDeserelization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Program/Engines/IO/XML/XmlSerelization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Program/Engines/PrintEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Program/Wrappers/SystPartOptional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/claster.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/claster.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/failed Path" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testProgram/ClasterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testProgram/TestMainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Java Lab Task1.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/Java Lab Task1.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java Lab Task1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Lab Task1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/Contracts/SystemPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/System_Parts/SystemPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/FailSearchEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Engines/FailSearchEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/System_Parts/Claster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/System_Parts/Claster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/System_Parts/Initialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/System_Parts/Initialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/System_Parts/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/System_Parts/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/System_Parts/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/System_Parts/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testProgram/System_Parts/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testProgram/System_Parts/TestServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,111 +46,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Program/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Program/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testProgram/Contracts/TestClasterDeserelization.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/Wrappers/SystPartOptional.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testProgram/Engines/TestEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/XML/XmlSerelization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/JSON/JsonSerelization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/System_Parts/SystemPart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/Engines/FailSearchEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/claster.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/XML/XmlDeserelization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/JSON/JsonDeserilization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="62" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -216,6 +141,7 @@
         <option value="$PROJECT_DIR$/claster.xml" />
         <option value="$PROJECT_DIR$/src/Program/Engines/IO/XML/XmlDeserelization.java" />
         <option value="$PROJECT_DIR$/src/Program/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Program/Main.java" />
       </list>
     </option>
   </component>
@@ -230,6 +156,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,68 +174,53 @@
               <item name="JavaLabTask1" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaLabTask1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLabTask1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLabTask1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLabTask1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLabTask1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Program" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLabTask1" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaLabTask1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Program" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testProgram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLabTask1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLabTask1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testProgram" type="462c0819:PsiDirectoryNode" />
               <item name="Contracts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLabTask1" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaLabTask1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Program" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testProgram" type="462c0819:PsiDirectoryNode" />
               <item name="Engines" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLabTask1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaLabTask1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Program" type="462c0819:PsiDirectoryNode" />
-              <item name="Engines" type="462c0819:PsiDirectoryNode" />
-              <item name="IO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLabTask1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaLabTask1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Program" type="462c0819:PsiDirectoryNode" />
-              <item name="Engines" type="462c0819:PsiDirectoryNode" />
-              <item name="IO" type="462c0819:PsiDirectoryNode" />
-              <item name="JSON" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLabTask1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaLabTask1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Program" type="462c0819:PsiDirectoryNode" />
-              <item name="Engines" type="462c0819:PsiDirectoryNode" />
-              <item name="IO" type="462c0819:PsiDirectoryNode" />
-              <item name="XML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLabTask1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaLabTask1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Program" type="462c0819:PsiDirectoryNode" />
-              <item name="System_Parts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLabTask1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaLabTask1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Program" type="462c0819:PsiDirectoryNode" />
-              <item name="Wrappers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,7 +324,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2261745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,7 +333,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,24 +413,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="248" column="21" lean-forward="true" selection-start-line="248" selection-start-column="21" selection-end-line="248" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Contracts/SystemParteable.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/Java Lab Task1/Program/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#694#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jacksone.2.9.2/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/base/GeneratorBase.class" />
     <entry file="jar://C:/Program Files/Java/jacksone.2.9.2/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/Base64Variant.class" />
     <entry file="jar://C:/Program Files/Java/jacksone.2.9.2/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/JsonFactory.class" />
@@ -525,311 +420,46 @@
     <entry file="jar://C:/Program Files/Java/jacksone.2.9.2/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/Base64Variants.class" />
     <entry file="file://$PROJECT_DIR$/src/Program/Serelizations/JsonSerelization.java" />
     <entry file="jar://C:/Program Files/Java/jacksone/jackson-databind-2.9.0.jar!/com/fasterxml/jackson/databind/ObjectMapper.class" />
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/util/BufferRecycler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#904#905#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/util/BufferRecyclers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/io/CharTypes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-          <folding>
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
-            <element signature="e#2429#2430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/JsonStreamContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/json/JsonWriteContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/base/GeneratorBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/json/JsonGeneratorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/io/IOContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#987#988#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/JsonFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="403" column="17" lean-forward="true" selection-start-line="403" selection-start-column="17" selection-end-line="403" selection-end-column="17" />
-          <folding>
-            <element signature="e#23181#23182#0" expanded="true" />
-            <element signature="e#23241#23242#0" expanded="true" />
-            <element signature="e#23273#23274#0" expanded="true" />
-            <element signature="e#23323#23324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/JsonProcessingException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#2145#2146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/json/UTF8JsonGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="234" selection-start-line="234" selection-end-line="234" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Engines/PrintEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/System_Parts/Initialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/System_Parts/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/System_Parts/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Contracts/Statuseable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/System_Parts/Claster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/JsonParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-databind-2.9.0.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/util/BufferRecycler.class" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/util/BufferRecyclers.class" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/io/CharTypes.class" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/JsonStreamContext.class" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/json/JsonWriteContext.class" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/base/GeneratorBase.class" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/json/JsonGeneratorImpl.class" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/io/IOContext.class" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/JsonFactory.class" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/JsonProcessingException.class" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/json/UTF8JsonGenerator.class" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Engines/PrintEngine.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/System_Parts/Initialize.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/System_Parts/Server.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/System_Parts/Node.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Contracts/Statuseable.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/System_Parts/Claster.java" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/JsonParser.class" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-databind-2.9.0.jar!/com/fasterxml/jackson/databind/ObjectMapper.class" />
     <entry file="file://$PROJECT_DIR$/test.json" />
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/JsonGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#22447#22448#0" expanded="true" />
-            <element signature="e#22503#22504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-dataformat-xml-2.9.0.jar!/com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="641" selection-start-line="641" selection-end-line="641" />
-          <folding>
-            <element signature="e#22991#22992#0" expanded="true" />
-            <element signature="e#23040#23041#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Contracts/Orderable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Engines/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-dataformat-xml-2.9.0.jar!/com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-dataformat-xml-2.9.0.jar!/com/fasterxml/jackson/dataformat/xml/XmlFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="301" selection-start-line="301" selection-end-line="301" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Contracts/ClasterSerelization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-dataformat-xml-2.9.0.jar!/com/fasterxml/jackson/dataformat/xml/XmlMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Contracts/ClasterDeserelization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/IOEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Wrappers/SystPartOptional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/XML/XmlSerelization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/JSON/JsonSerelization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/System_Parts/SystemPart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Engines/FailSearchEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-core-2.9.2.jar!/com/fasterxml/jackson/core/JsonGenerator.class" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-dataformat-xml-2.9.0.jar!/com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.class" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Contracts/Orderable.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Engines/Engine.java" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-dataformat-xml-2.9.0.jar!/com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.class" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-dataformat-xml-2.9.0.jar!/com/fasterxml/jackson/dataformat/xml/XmlFactory.class" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Contracts/ClasterSerelization.java" />
+    <entry file="jar://C:/Program Files/Java/jacksone.2.9/jackson-dataformat-xml-2.9.0.jar!/com/fasterxml/jackson/dataformat/xml/XmlMapper.class" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Contracts/ClasterDeserelization.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/IOEngine.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Wrappers/SystPartOptional.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/XML/XmlSerelization.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/JSON/JsonSerelization.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/System_Parts/SystemPart.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Engines/FailSearchEngine.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/JSON/JsonDeserilization.java" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/XML/XmlDeserelization.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/Java Lab Task1/Program/Wrappers/SystPartOptional.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/Java Lab Task1/Program/Wrappers/SystPartOptional$1.class" />
+    <entry file="file://$PROJECT_DIR$/src/Program/Main.java" />
     <entry file="file://$PROJECT_DIR$/claster.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -837,47 +467,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/JSON/JsonDeserilization.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Program/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="62" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Engines/IO/XML/XmlDeserelization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Java Lab Task1/Program/Wrappers/SystPartOptional.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#971#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Java Lab Task1/Program/Wrappers/SystPartOptional$1.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/testProgram/Contracts/TestClasterDeserelization.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testProgram/Engines/TestEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
