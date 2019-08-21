@@ -1,0 +1,18 @@
+
+target/
+
+src/test/
+
+src/main/resources
+
+out/
+
+.idea/
+
+pom.xml
+
+Java Lab Task1.iml
+
+.gitattributes
+
+
