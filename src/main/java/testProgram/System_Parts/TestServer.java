@@ -61,7 +61,7 @@ public class TestServer extends TestSystemPart {
         void firsPartTrueSeconFalse () {
             SystPartOptional<Node> node1 = new SystPartOptional<>(new Node());
             SystPartOptional<Node> node2 = new SystPartOptional<>(new Node());
-            Server serv = new  Server(node1, node2);
+            Server serv = new Server(node1, node2);
 
             assert (serv.isStatus());
 
